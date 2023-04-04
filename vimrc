@@ -69,5 +69,8 @@ let g:vimspector_enable_mappings = 'HUMAN'
 " If we want to run it unconditionally, uncomment that line:
 " packadd! vimspector
 
+" Enable indent guides
+let g:indent_guides_enable_on_vim_startup = 1
+
 " fancy gdb support in Vim
 packadd termdebug
