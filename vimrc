@@ -27,10 +27,13 @@ Plugin 'tpope/vim-projectionist'
 Plugin 'tpope/vim-rhubarb'
 Plugin 'tpope/vim-dadbod'
 Plugin 'preservim/NERDTree'
+Plugin 'preservim/tagbar'
 Plugin 'preservim/vim-indent-guides'
 Plugin 'shumphrey/fugitive-gitlab.vim'
 Plugin 'SirVer/UltiSnips'
 Plugin 'puremourning/vimspector'
+Plugin 'nordtheme/vim'
+Plugin 'Yggdroot/indentLine'
 
 " " plugin from http://vim-scripts.org/vim/scripts.html
 " " Plugin 'L9'
