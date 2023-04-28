@@ -1,0 +1,13 @@
+[alias]
+	br = branch
+	cf = clang-format
+	ci = commit
+	co = checkout
+	co-d = co --detach
+	d = diff
+	st = status
+	reb = rebase
+[apply]
+	whitespace = fix
+[core]
+	editor = vim
