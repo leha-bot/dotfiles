@@ -35,6 +35,7 @@ Plugin 'SirVer/UltiSnips'
 Plugin 'puremourning/vimspector'
 Plugin 'nordtheme/vim'
 Plugin 'Yggdroot/indentLine'
+Plugin 'rhysd/vim-clang-format'
 
 " " plugin from http://vim-scripts.org/vim/scripts.html
 " " Plugin 'L9'
