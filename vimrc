@@ -19,6 +19,7 @@ Plugin 'tpope/vim-sleuth'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-tbone'
+Plugin 'tpope/vim-scriptease'   " plugin for plugins, yo dawg!
 Plugin 'tpope/vim-speeddating'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-jdaddy'
