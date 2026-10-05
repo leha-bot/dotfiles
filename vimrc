@@ -87,3 +87,21 @@ endif
 
 " fancy gdb support in Vim
 packadd termdebug
+
+" Tagbar won't work on BSD ctags, so check it...
+"
+if has("unix") && system('uname') =~? "BSD"
+	" FreeBSD has universal ctags in ports,
+	" its binary located here...
+	if executable('/usr/local/bin/uctags')
+		let g:tagbar_ctags_bin = '/usr/local/bin/uctags'
+	elseif executable('uctags')
+		" or just try to check uctags binary..
+		let g:tagbar_ctags_bin = 'uctags'
+	else
+		" Error out if uctags is not found..
+		echohl ErrorMsg
+		echom "[Tagbar Error]: For proper work install unversal ctags (e.g., `pkg install universal-ctags` on FreeBSD)"
+		echohl None
+	endif
+endif
