@@ -105,3 +105,12 @@ if has("unix") && system('uname') =~? "BSD"
 		echohl None
 	endif
 endif
+
+" Hotkeys
+"
+
+" YCM hotkeys
+"
+nnoremap <silent> <leader>yr :YcmCompleter RefactorRename<Space>
+nnoremap <silent> <leader>ygt :YcmCompleter GoTo<CR>
+nnoremap <silent> <leader>ygr :YcmCompleter GoToReferences<CR>
